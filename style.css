@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.carousel {
+    /* background-color: #D9D9D9; */
+    width: 100dvw;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    overflow-x: scroll;
+    height: 100dvh;
+    align-items: center;
+    scrollbar-width: none;
+    /* transform: skewY(10deg); */
+    /* transform: rotate3d(2.5, 1.2, 0.3); */
+}
+
+.slide img {
+    width: 30rem;
+    opacity: 90%;
+    transform: rotate3d(1, 1, 1, -20deg);
+
+    /* transform: skewY(10deg); */
+}
+
+.slide {
+    /* transform: skewY(-20deg); */
+}
